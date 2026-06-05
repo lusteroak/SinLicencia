@@ -4,26 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94aa39c0-f76d-4e4c-9ac0-1f94f79a3d18" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/app/app.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/app/app.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/app/app.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/app/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/app/app.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/app/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/tsconfig.spec.json" afterDir="false" />
+    <list default="true" id="94aa39c0-f76d-4e4c-9ac0-1f94f79a3d18" name="Changes" comment="Added frontend">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinLicenciaFrontEnd/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +57,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.SinLicencia [--version].executor": "Run",
+    "Maven.SinLicencia [clean,package].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -79,11 +66,17 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package" />
+      <command value="mvn --version" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="SinLicenciaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
@@ -120,10 +113,20 @@
       <option name="presentableId" value="Default" />
       <updated>1780681713436</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added frontend">
+      <option name="closed" value="true" />
+      <created>1780685059054</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780685059054</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Added frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added frontend" />
   </component>
 </project>
