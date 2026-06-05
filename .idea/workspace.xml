@@ -4,15 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94aa39c0-f76d-4e4c-9ac0-1f94f79a3d18" name="Changes" comment="" />
+    <list default="true" id="94aa39c0-f76d-4e4c-9ac0-1f94f79a3d18" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/app/app.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/app/app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/app/app.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/app/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/app/app.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/app/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinLicenciaFrontEnd/tsconfig.spec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lusteroak"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lusteroak/SinLicencia.git",
+    "accountId": "6344a6cc-f158-41c1-b550-18ede2c22ea2"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -35,6 +74,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "Spring Boot.SinLicenciaApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
