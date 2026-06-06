@@ -43,7 +43,7 @@ pipeline {
        stage('Test') {
             steps {
                 script {
-                    powershell 'cd SinLicenciaBackend && mvn test'
+                    powershell 'cd SinLicenciaBackend ; mvn test'
                 }
             }
        }
