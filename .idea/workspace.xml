@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94aa39c0-f76d-4e4c-9ac0-1f94f79a3d18" name="Changes" comment="TEST HTML">
+    <list default="true" id="94aa39c0-f76d-4e4c-9ac0-1f94f79a3d18" name="Changes" comment="Updated Jenkinsfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
@@ -66,6 +66,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
@@ -151,15 +152,34 @@
       <option name="project" value="LOCAL" />
       <updated>1780704601894</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1780704965491</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1780704965491</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1780705247017</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1780705247017</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Jenkinsfile" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Added frontend" />
     <MESSAGE value="Added Dockerfile, Jenkinsfile" />
-    <MESSAGE value="Updated Jenkinsfile" />
     <MESSAGE value="TEST HTML" />
-    <option name="LAST_COMMIT_MESSAGE" value="TEST HTML" />
+    <MESSAGE value="Updated Jenkinsfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Jenkinsfile" />
   </component>
 </project>
