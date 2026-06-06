@@ -18,10 +18,38 @@ pipeline {
     }
 
     stages {
-            stage('Checkout') { ... }
-            stage('Build') { ... }
-            stage('Test') { ... }
-            stage('Sonar') { ... }
+            stage('Checkout') {
+                        steps {
+                            git branch: 'main', credentialsId: 'Git token', url: 'https://github.com/lusteroak/SinLicencia.git'
+                        }
+                    }
+            stage('Build') {
+                        parallel {
+                            stage('Java') {
+                                steps {
+                                    dir('SinLicenciaBackend') {
+                                        sh 'mvn clean install'
+                                    }
+                                }
+                            }
+
+                            stage('Angular') {
+                                steps {
+                                    dir('SinLicenciaFrontEnd') {
+                                        sh 'npm install'
+                                        sh './node_modules/.bin/ng build --configuration production'
+                                    }
+                                }
+                            }
+                        }
+                    }
+            stage('Test') {
+                        steps {
+                            script {
+                                sh 'cd SinLicenciaBackend && mvn test'
+                            }
+                        }
+                    }
             stage('Deploy to Render') {
                 steps {
                     script {
