@@ -17,7 +17,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-            git branch: 'main', credentialsId: 'Git token', url: 'https://github.com/lusteroak/SinLicencia.git'
+            git branch: 'master', credentialsId: 'Git token', url: 'https://github.com/lusteroak/SinLicencia.git'
           }
         }
        stage('Build') {
