@@ -25,7 +25,7 @@ pipeline {
                             stage('Java') {
                                 steps {
                                     dir('SinLicenciaBackend') {
-                                        sh 'mvn clean install'
+                                        powershell 'mvn clean install'
                                     }
                                 }
                             }
@@ -33,8 +33,8 @@ pipeline {
                             stage('Angular') {
                                 steps {
                                     dir('SinLicenciaFrontEnd') {
-                                        sh 'npm install'
-                                        sh './node_modules/.bin/ng build --configuration production'
+                                        powershell 'npm install'
+                                        powershell './node_modules/.bin/ng build --configuration production'
                                     }
                                 }
                             }
@@ -43,7 +43,7 @@ pipeline {
        stage('Test') {
             steps {
                 script {
-                    sh 'cd SinLicenciaBackend && mvn test'
+                    powershell 'cd SinLicenciaBackend && mvn test'
                 }
             }
        }
@@ -52,7 +52,7 @@ pipeline {
                 script {
 
 
-                    def changedFiles = sh(script: 'git diff --name-only HEAD HEAD~1', returnStdout: true).split('\n');
+                    def changedFiles = powershell(script: 'git diff --name-only HEAD HEAD~1', returnStdout: true).split('\n');
                     echo "Changed files:\n${changedFiles.join('\n')}"
 
                     def backendChanged = changedFiles.any {
