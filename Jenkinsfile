@@ -4,8 +4,8 @@ pipeline {
         skipDefaultCheckout()
     }
     tools {
-        maven "mvn"
-        nodejs "node"
+        maven "maven"
+        nodejs "nodejs"
     }
     environment {
         RENDER_API_KEY = credentials('render-api-key')
